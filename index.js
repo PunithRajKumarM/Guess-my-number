@@ -23,6 +23,7 @@ const startGame = () => {
 
 startGame();
 
+//Checking the secret number
 document.querySelector(".check").addEventListener("click", () => {
   const guess = Number(document.querySelector(".guess").value);
   if (!guess) {
